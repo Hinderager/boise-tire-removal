@@ -1,6 +1,14 @@
-# Robots.txt for Hoarding Cleanup Boise
+# robots.txt for https://boise-tire-removal.com
 User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://boise-hoarding-cleanup.com/sitemap.xml
+Sitemap: https://boise-tire-removal.com/sitemap.xml
+
+# Crawl-delay (optional, be nice to crawlers)
+Crawl-delay: 1
+
+# Disallow admin and API routes
+Disallow: /api/
+Disallow: /_next/
+Disallow: /admin/
