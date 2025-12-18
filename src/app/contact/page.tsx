@@ -1,6 +1,6 @@
 import { Metadata } from 'next'
 import { Phone, Mail, MapPin, Clock } from 'lucide-react'
-import SchedulingForm from '@/components/SchedulingForm'
+import { SchedulingForm } from '@/components/SchedulingForm'
 
 export const metadata: Metadata = {
   title: 'Contact Us | Boise Tire Removal',

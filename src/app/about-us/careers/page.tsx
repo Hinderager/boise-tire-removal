@@ -3,7 +3,7 @@ import { Phone, Briefcase, DollarSign, Heart } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Career Opportunities | Boise Tire Removal',
-  description: 'Join the Top Shelf Tire Removal team. We're looking for reliable team members who want to make a difference in the Treasure Valley.',
+  description: 'Join the Top Shelf Tire Removal team. We are looking for reliable team members who want to make a difference in the Treasure Valley.',
   alternates: { canonical: 'https://boisetireremoval.com/about-us/careers' },
 }
 

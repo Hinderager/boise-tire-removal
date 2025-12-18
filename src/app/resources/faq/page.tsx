@@ -1,6 +1,6 @@
 import { Metadata } from 'next'
 import { Phone } from 'lucide-react'
-import FAQ from '@/components/FAQ'
+import { FAQ } from '@/components/FAQ'
 
 export const metadata: Metadata = {
   title: 'Frequently Asked Questions | Boise Tire Removal',

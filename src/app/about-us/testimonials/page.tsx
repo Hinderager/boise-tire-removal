@@ -1,6 +1,6 @@
 import { Metadata } from 'next'
 import { Phone } from 'lucide-react'
-import GoogleReviews from '@/components/GoogleReviews'
+import { GoogleReviews } from '@/components/GoogleReviews'
 
 export const metadata: Metadata = {
   title: 'Customer Reviews | Boise Tire Removal',
