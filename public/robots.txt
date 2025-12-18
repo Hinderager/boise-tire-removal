@@ -1,0 +1,6 @@
+# Robots.txt for Hoarding Cleanup Boise
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://boise-hoarding-cleanup.com/sitemap.xml
