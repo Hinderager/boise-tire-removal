@@ -5,7 +5,7 @@ import { Phone, ArrowRight, Home } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Residential Tire Removal Treasure Valley | Boise Tire Removal',
   description: 'Residential tire removal services for homeowners. We pick up old tires from your garage, backyard, or property. Serving Boise, Meridian, Nampa & the Treasure Valley.',
-  alternates: { canonical: 'https://boisetireremoval.com/services/residential' },
+  alternates: { canonical: 'https://boise-tire-removal.com/services/residential' },
 }
 
 const services = [
@@ -22,8 +22,8 @@ export default function ResidentialPage() {
           <Home className="w-16 h-16 text-[#FFC845] mx-auto mb-6" />
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">Residential Tire Removal</h1>
           <p className="text-xl text-gray-200 max-w-3xl mx-auto mb-8">Quick, affordable tire removal for homeowners throughout the Treasure Valley.</p>
-          <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
-            <Phone className="w-5 h-5" />(208) 505-9352
+          <a href="tel:2089435231" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
+            <Phone className="w-5 h-5" />(208) 943-5231
           </a>
         </div>
       </section>
@@ -79,8 +79,8 @@ export default function ResidentialPage() {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold text-white mb-4">Ready to Clear Out Those Tires?</h2>
           <p className="text-xl text-gray-300 mb-8">Call now for a free quote.</p>
-          <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
-            <Phone className="w-5 h-5" />(208) 505-9352
+          <a href="tel:2089435231" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
+            <Phone className="w-5 h-5" />(208) 943-5231
           </a>
         </div>
       </section>

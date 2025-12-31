@@ -11,7 +11,7 @@ const cityCoordinates: Record<string, { lat: number; lng: number }> = {
 const faqData = [
   {
     question: 'How much does tire removal cost per tire in Boise?',
-    answer: 'Tire removal pricing depends on quantity and location. For small jobs (1-10 tires), expect around $3-5 per tire. Bulk pickups of 50+ tires get better per-tire rates. Call (208) 505-9352 for a free, no-obligation quote.',
+    answer: 'Tire removal pricing depends on quantity and location. For small jobs (1-10 tires), expect around $3-5 per tire. Bulk pickups of 50+ tires get better per-tire rates. Call (208) 943-5231 for a free, no-obligation quote.',
   },
   {
     question: 'Do you pick up tires that are still on rims?',
@@ -19,7 +19,7 @@ const faqData = [
   },
   {
     question: 'How quickly can you pick up my tires?',
-    answer: 'We typically schedule tire pickups within 24-48 hours. Same-day service is often available for urgent situations. Call us at (208) 505-9352 and we will work with your schedule.',
+    answer: 'We typically schedule tire pickups within 24-48 hours. Same-day service is often available for urgent situations. Call us at (208) 943-5231 and we will work with your schedule.',
   },
   {
     question: 'What types of tires do you accept for removal?',
@@ -39,7 +39,7 @@ const faqData = [
   },
   {
     question: 'What areas do you serve for tire removal in Idaho?',
-    answer: 'We serve Boise, Meridian, Nampa, Caldwell, Eagle, Kuna, Star, and all surrounding Treasure Valley communities. If you are unsure whether we cover your area, call us at (208) 505-9352.',
+    answer: 'We serve Boise, Meridian, Nampa, Caldwell, Eagle, Kuna, Star, and all surrounding Treasure Valley communities. If you are unsure whether we cover your area, call us at (208) 943-5231.',
   },
 ]
 
@@ -52,8 +52,8 @@ export function StructuredData({ city = 'Boise' }: { city?: string }) {
     "name": `Boise Tire Removal - ${city}`,
     "description": `Professional tire removal, disposal, and recycling services in ${city}, Idaho. We haul away old tires from residential and commercial properties. Any quantity, proper eco-friendly disposal.`,
     "url": "https://boise-tire-removal.com",
-    "telephone": "+1-208-505-9352",
-    "email": "info@boise-tire-removal.com",
+    "telephone": "+1-208-943-5231",
+    "email": "info@topshelfpros.com",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": city,

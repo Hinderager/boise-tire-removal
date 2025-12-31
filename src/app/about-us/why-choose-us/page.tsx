@@ -4,7 +4,7 @@ import { Phone, CheckCircle, Clock, DollarSign, Truck, Recycle, Users } from 'lu
 export const metadata: Metadata = {
   title: 'Why Choose Us | Boise Tire Removal',
   description: 'Why choose Top Shelf Tire Removal? Fast service, fair prices, and responsible disposal. We make tire removal simple.',
-  alternates: { canonical: 'https://boisetireremoval.com/about-us/why-choose-us' },
+  alternates: { canonical: 'https://boise-tire-removal.com/about-us/why-choose-us' },
 }
 
 export default function WhyChooseUsPage() {
@@ -83,8 +83,8 @@ export default function WhyChooseUsPage() {
       <section className="py-12 bg-dark-blue text-center">
         <div className="container mx-auto px-4">
           <h2 className="text-2xl font-bold text-white mb-4">Let's Get Those Tires Out of Your Way</h2>
-          <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-3 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
-            <Phone className="w-5 h-5" />(208) 505-9352
+          <a href="tel:2089435231" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-3 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
+            <Phone className="w-5 h-5" />(208) 943-5231
           </a>
         </div>
       </section>

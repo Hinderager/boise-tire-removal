@@ -7,54 +7,10 @@ import { Star, ChevronLeft, ChevronRight } from 'lucide-react'
 
 // Static reviews for tire removal
 const staticReviews = [
-  {
-    author: 'Mike T.',
-    relative_time: '2 months ago',
-    rating: 5,
-    text: 'Had about 35 old tires sitting in my barn for years. Called these guys on a Tuesday, they showed up Wednesday morning. Loaded everything up in about 45 minutes. Price was fair and they didn\'t leave a mess. Glad I finally got that done.',
-  },
-  {
-    author: 'Sarah L.',
-    relative_time: '1 month ago',
-    rating: 5,
-    text: 'Bought a foreclosure property and there were tires everywhere—stacked behind the shed, buried in weeds, you name it. They came out same day, walked the property with me, gave me a price on the spot. Done deal. Would use them again.',
-  },
-  {
-    author: 'Tom R.',
-    relative_time: '3 weeks ago',
-    rating: 5,
-    text: 'I own a small auto repair shop. These guys pick up our used tires every week. Always show up when they say they will. No drama, no excuses. That kind of reliability is hard to find.',
-  },
-  {
-    author: 'Jennifer M.',
-    relative_time: '2 weeks ago',
-    rating: 5,
-    text: 'Called to have 8 tires removed from my garage. Guy was polite, gave me a quote over the phone, and scheduled for the next day. They even helped dig out a couple that were buried under boxes. Didn\'t have to ask—they just did it.',
-  },
-  {
-    author: 'David K.',
-    relative_time: '1 month ago',
-    rating: 5,
-    text: 'Got a quote in 5 minutes. Scheduled pickup for the next morning. Showed up on time, loaded up 50+ tires, and left. Simple as that. If you need tires gone, just call these guys.',
-  },
-  {
-    author: 'Amanda C.',
-    relative_time: '3 months ago',
-    rating: 5,
-    text: 'Previous homeowner left a mountain of tires behind the garage. I was honestly dreading dealing with it. Called, they came out, and it was done. No stress, no hassle. Place looked so much better after.',
-  },
-  {
-    author: 'Robert H.',
-    relative_time: '2 months ago',
-    rating: 5,
-    text: 'I manage rental properties around Boise. Tenants leave tires behind more often than you\'d think. I call these guys every time. They\'re always available on short notice and the pricing stays consistent. That\'s what I need.',
-  },
-  {
-    author: 'Karen W.',
-    relative_time: '1 week ago',
-    rating: 5,
-    text: 'Had to clean out my dad\'s property after he passed. There were about 15 old tires scattered around. They were respectful, efficient, and didn\'t waste my time. One less thing to deal with during a rough time. I appreciated that.',
-  },
+  { author: 'Rachelle Tridle', rating: 5, text: 'Top Shelf Junk Removers were awesome! They showed up on time, took everything that was quoted — plus a few extra items I had on site — with no hassle. Super fast, efficient, affordable, and even had change because I paid with cash!. Great service all around. Highly recommend!' },
+  { author: 'Jeff Rau', rating: 5, text: 'Exceptional service and response from Top Shelf. Cleaning out a family home and we were able to fill a 15 cubic yard dumpster twice! Both deliveries were very timely and working with Top Shelf staff was great! Thank you for helping make our chore easier and efficient. I would easily recommend this business to others.' },
+  { author: 'Katrina Vincent', rating: 5, text: 'We recently hired Top Shelf to assist a client who had been a long time tenant for the company I work for, it was a big project, riddled with challenges. They far exceeded my expectations. Not only did they arrive on time and get right to work, they treated our clients with kindness and respect. They were extremely helpful and hard working. They accommodated our needs for appointment times and seemed to really want to earn our business. I hope to be able to utilize their services again! Would very highly recommend.' },
+  { author: 'Kevin McSpadden', rating: 5, text: 'Eric and Gabe were great. Positive attitude and tackled the job without complaint Pricing was great and will definitely use them again!' },
 ]
 
 export function GoogleReviews() {
@@ -62,7 +18,7 @@ export function GoogleReviews() {
   const [expandedReviews, setExpandedReviews] = useState(false)
   const reviewsPerPage = 4
   const rating = 5.0
-  const totalReviews = 100
+  const totalReviews = 323
 
   const nextSlide = () => {
     setCurrentIndex((prev) =>
@@ -151,7 +107,6 @@ export function GoogleReviews() {
                           <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
                         </svg>
                       </div>
-                      <p className="text-sm text-gray-500">{review.relative_time}</p>
                     </div>
                   </div>
 
@@ -225,9 +180,9 @@ export function GoogleReviews() {
         {/* CTA Buttons */}
         <div className="flex flex-row gap-4 justify-center mt-12">
           <Button asChild size="lg" className="bg-ub-yellow hover:bg-ub-yellow/90 text-black font-bold text-lg px-10 py-6 rounded-lg uppercase border-4 border-ub-yellow">
-            <a href="tel:2085059352">
+            <a href="tel:2089435231">
               <span className="md:hidden">Call Now</span>
-              <span className="hidden md:inline">(208) 505-9352</span>
+              <span className="hidden md:inline">(208) 943-5231</span>
             </a>
           </Button>
         </div>

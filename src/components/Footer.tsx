@@ -87,11 +87,11 @@ export function Footer() {
                 <Phone className="h-5 w-5 text-[#ff6b35] flex-shrink-0 mt-1" />
                 <div>
                   <a
-                    href="tel:2085059352"
+                    href="tel:2089435231"
                     className="text-white/80 hover:text-white transition-colors font-semibold"
                   >
                     <span className="md:hidden">Call Now</span>
-                    <span className="hidden md:inline">(208) 505-9352</span>
+                    <span className="hidden md:inline">(208) 943-5231</span>
                   </a>
                 </div>
               </li>
@@ -99,10 +99,10 @@ export function Footer() {
                 <Mail className="h-5 w-5 text-[#ff6b35] flex-shrink-0 mt-1" />
                 <div>
                   <a
-                    href="mailto:info@boise-tire-removal.com"
+                    href="mailto:info@topshelfpros.com"
                     className="text-white/80 hover:text-white transition-colors"
                   >
-                    info@boise-tire-removal.com
+                    info@topshelfpros.com
                   </a>
                 </div>
               </li>

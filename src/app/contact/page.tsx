@@ -4,8 +4,8 @@ import { SchedulingForm } from '@/components/SchedulingForm'
 
 export const metadata: Metadata = {
   title: 'Contact Us | Boise Tire Removal',
-  description: 'Contact Top Shelf Tire Removal for fast, affordable tire disposal in the Treasure Valley. Call (208) 505-9352 or request a quote online.',
-  alternates: { canonical: 'https://boisetireremoval.com/contact' },
+  description: 'Contact Top Shelf Tire Removal for fast, affordable tire disposal in the Treasure Valley. Call (208) 943-5231 or request a quote online.',
+  alternates: { canonical: 'https://boise-tire-removal.com/contact' },
 }
 
 export default function ContactPage() {
@@ -36,7 +36,7 @@ export default function ContactPage() {
                     <Phone className="w-6 h-6 text-[#FFC845] flex-shrink-0 mt-1" />
                     <div>
                       <h3 className="font-bold text-dark-blue mb-1">Phone</h3>
-                      <a href="tel:2085059352" className="text-lg text-gray-600 hover:text-dark-blue">(208) 505-9352</a>
+                      <a href="tel:2089435231" className="text-lg text-gray-600 hover:text-dark-blue">(208) 943-5231</a>
                       <p className="text-sm text-gray-500">Call or text for fastest response</p>
                     </div>
                   </div>
@@ -103,8 +103,8 @@ export default function ContactPage() {
         <div className="container mx-auto px-4">
           <h2 className="text-2xl font-bold text-white mb-4">Prefer to Talk?</h2>
           <p className="text-gray-300 mb-6">Call us now for an immediate quote.</p>
-          <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-3 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
-            <Phone className="w-5 h-5" />(208) 505-9352
+          <a href="tel:2089435231" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-3 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
+            <Phone className="w-5 h-5" />(208) 943-5231
           </a>
         </div>
       </section>

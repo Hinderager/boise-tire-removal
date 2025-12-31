@@ -3,8 +3,8 @@ import { Phone } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Property Clearing | Boise Tire Removal',
-  description: 'Complete tire removal from properties in the Treasure Valley. Call (208) 505-9352 for fast service.',
-  alternates: { canonical: 'https://boisetireremoval.com/services/bulk-removal/property-clearing' },
+  description: 'Complete tire removal from properties in the Treasure Valley. Call (208) 943-5231 for fast service.',
+  alternates: { canonical: 'https://boise-tire-removal.com/services/bulk-removal/property-clearing' },
 }
 
 export default function PropertyClearingPage() {
@@ -20,14 +20,14 @@ export default function PropertyClearingPage() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto prose prose-lg text-gray-600">
             <p>Top Shelf Tire Removal provides professional property clearing services throughout the Treasure Valley. No job is too big—we handle everything from small piles to massive commercial cleanups.</p>
-            <p>Call us today at (208) 505-9352 for a free quote. We'll assess the job and give you a fair, upfront price.</p>
+            <p>Call us today at (208) 943-5231 for a free quote. We'll assess the job and give you a fair, upfront price.</p>
           </div>
         </div>
       </section>
       <section className="py-12 bg-dark-blue text-center">
         <div className="container mx-auto px-4">
-          <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-3 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
-            <Phone className="w-5 h-5" />(208) 505-9352
+          <a href="tel:2089435231" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-3 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
+            <Phone className="w-5 h-5" />(208) 943-5231
           </a>
         </div>
       </section>

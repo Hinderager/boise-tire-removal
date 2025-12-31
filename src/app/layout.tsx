@@ -22,7 +22,7 @@ const openSans = Open_Sans({
 export const metadata: Metadata = {
   metadataBase: new URL('https://boise-tire-removal.com'),
   title: 'Tire Removal Boise | Same-Day Tire Disposal & Recycling Service',
-  description: 'Need old tires gone? We haul away any quantity in Boise, Meridian, Nampa, and the Treasure Valley. Proper recycling, fair pricing. Call (208) 505-9352 for free quote.',
+  description: 'Need old tires gone? We haul away any quantity in Boise, Meridian, Nampa, and the Treasure Valley. Proper recycling, fair pricing. Call (208) 943-5231 for free quote.',
   keywords: 'tire removal Boise, tire disposal Boise, bulk tire pickup, commercial tire disposal, property tire cleanup, tire recycling Idaho, Meridian, Nampa, Caldwell, Eagle',
   openGraph: {
     title: 'Tire Removal Boise | Same-Day Tire Disposal & Recycling Service',
@@ -67,18 +67,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
             gtag('config', 'G-581QKP6ZE5');
-          `}
-        </Script>
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-46RY05JDNS"
-          strategy="afterInteractive"
-        />
-        <Script id="google-ads" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-46RY05JDNS');
+            
             gtag('config', 'AW-11134633087');
           `}
         </Script>
@@ -111,6 +100,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <Footer />
         </QuoteFormProvider>
         <StructuredData />
+        <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+        <link rel="dns-prefetch" href="https://www.google-analytics.com" />
+        <link rel="dns-prefetch" href="https://connect.facebook.net" />
+        <link rel="dns-prefetch" href="https://www.google.com" />
       </body>
     </html>
   )

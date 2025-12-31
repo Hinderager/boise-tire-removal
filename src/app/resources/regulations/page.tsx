@@ -4,7 +4,7 @@ import { Phone, AlertTriangle, FileText, Shield, Scale } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Tire Disposal Regulations in Idaho | Boise Tire Removal',
   description: 'Learn about Idaho tire disposal laws, regulations, and penalties. Stay compliant with state and local requirements.',
-  alternates: { canonical: 'https://boisetireremoval.com/resources/regulations' },
+  alternates: { canonical: 'https://boise-tire-removal.com/resources/regulations' },
 }
 
 export default function RegulationsPage() {
@@ -119,8 +119,8 @@ export default function RegulationsPage() {
       <section className="py-12 bg-dark-blue text-center">
         <div className="container mx-auto px-4">
           <h2 className="text-2xl font-bold text-white mb-4">Dispose of Tires the Legal Way</h2>
-          <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-3 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
-            <Phone className="w-5 h-5" />(208) 505-9352
+          <a href="tel:2089435231" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-3 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
+            <Phone className="w-5 h-5" />(208) 943-5231
           </a>
         </div>
       </section>
