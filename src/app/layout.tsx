@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     title: 'Tire Removal Boise | Same-Day Tire Disposal & Recycling Service',
     description: 'Professional tire removal and recycling in Boise and surrounding areas. We pick up any quantity of old tires with proper eco-friendly disposal.',
     url: 'https://boise-tire-removal.com',
-    siteName: 'Boise Tire Removal',
+    siteName: 'Top Shelf Tire Removal',
     locale: 'en_US',
     type: 'website',
   },
