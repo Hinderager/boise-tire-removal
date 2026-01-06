@@ -49,7 +49,7 @@ export function VisibleBreadcrumb() {
               <li key={item.href} className="flex items-center">
                 {index > 0 && <span className="mx-2 text-gray-400">/</span>}
                 {index === breadcrumbs.length - 1 ? (
-                  <span className="text-dark-blue font-medium">{item.name}</span>
+                  <span className="text-rose-600 font-medium underline decoration-rose-600">{item.name}</span>
                 ) : (
                   <Link
                     href={item.href}
