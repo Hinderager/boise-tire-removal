@@ -41,7 +41,7 @@ export function VisibleBreadcrumb() {
   if (pathname === '/') return null
 
   return (
-    <div className="bg-gray-50 border-b border-gray-200 pt-20">
+    <div className="bg-gray-50 border-b border-gray-200">
       <div className="container mx-auto px-4 py-3">
         <nav className="text-sm" aria-label="Breadcrumb">
           <ol className="flex flex-wrap items-center gap-1">

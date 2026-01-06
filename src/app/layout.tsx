@@ -5,7 +5,6 @@ import './globals.css'
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
 import { StructuredData } from '@/components/StructuredData'
-import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 import { QuoteFormProvider } from '@/context/QuoteFormContext'
 
 const oswald = Oswald({
@@ -99,7 +98,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </noscript>
         <QuoteFormProvider>
           <Header />
-          <VisibleBreadcrumb />
           {children}
           <Footer />
         </QuoteFormProvider>
