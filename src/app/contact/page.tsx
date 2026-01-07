@@ -1,4 +1,5 @@
 import { Metadata } from 'next'
+import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 import { Phone, Mail, MapPin, Clock } from 'lucide-react'
 import { SchedulingForm } from '@/components/SchedulingForm'
 
@@ -18,6 +19,7 @@ export default function ContactPage() {
         </div>
       </section>
 
+      <VisibleBreadcrumb />
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">

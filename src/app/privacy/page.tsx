@@ -1,5 +1,6 @@
 import { Metadata } from 'next'
 import Link from 'next/link'
+import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
   title: 'Privacy Policy | Tire Removal Pros',
@@ -11,8 +12,9 @@ export const metadata: Metadata = {
 
 export default function PrivacyPage() {
   return (
-    <main className="py-16">
-      <div className="container mx-auto px-4">
+    <main className="pt-20">
+      <VisibleBreadcrumb />
+      <div className="container mx-auto px-4 py-16">
         <div className="max-w-3xl mx-auto">
           <h1 className="text-4xl font-bold text-gunmetal mb-4">Privacy Policy</h1>
           <p className="text-gray-500 mb-8">Last updated: December 13, 2024</p>

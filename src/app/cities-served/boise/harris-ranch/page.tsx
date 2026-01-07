@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { Phone, CheckCircle, MapPin, ArrowRight } from 'lucide-react'
 import { QuickQuoteBar } from '@/components/QuickQuoteBar'
+import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
   title: 'Tire Removal Harris Ranch Boise | Top Shelf',
@@ -42,6 +43,7 @@ export default function HarrisRanchPage() {
         </div>
       </section>
 
+      <VisibleBreadcrumb />
       <QuickQuoteBar />
 
       {/* Main Content */}

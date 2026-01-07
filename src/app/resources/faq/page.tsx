@@ -1,4 +1,5 @@
 import { Metadata } from 'next'
+import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 import { Phone } from 'lucide-react'
 import { FAQ } from '@/components/FAQ'
 
@@ -17,6 +18,7 @@ export default function FAQPage() {
           <p className="text-xl text-gray-200 max-w-3xl mx-auto">Everything you need to know about tire removal and disposal.</p>
         </div>
       </section>
+      <VisibleBreadcrumb />
       <FAQ />
       <section className="py-12 bg-dark-blue text-center">
         <div className="container mx-auto px-4">

@@ -1,4 +1,5 @@
 import { Metadata } from 'next'
+import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 import { Phone } from 'lucide-react'
 import { GoogleReviews } from '@/components/GoogleReviews'
 
@@ -17,6 +18,7 @@ export default function TestimonialsPage() {
           <p className="text-xl text-gray-200 max-w-3xl mx-auto">See what our customers have to say.</p>
         </div>
       </section>
+      <VisibleBreadcrumb />
       <GoogleReviews />
       <section className="py-12 bg-dark-blue text-center">
         <div className="container mx-auto px-4">

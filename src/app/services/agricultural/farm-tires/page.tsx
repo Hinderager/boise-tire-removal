@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 import { Phone } from 'lucide-react'
 import { QuickQuoteBar } from '@/components/QuickQuoteBar'
+import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
   title: 'Farm Tire Removal | Boise Tire Removal',
@@ -17,6 +18,7 @@ export default function FarmTiresPage() {
           <p className="text-xl text-gray-200 max-w-3xl mx-auto">Disposal of agricultural and farm equipment tires.</p>
         </div>
       </section>
+      <VisibleBreadcrumb />
       <QuickQuoteBar />
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">

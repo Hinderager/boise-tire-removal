@@ -1,4 +1,5 @@
 import { Metadata } from 'next'
+import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 import Image from 'next/image'
 import Link from 'next/link'
 import { Building2, CheckCircle } from 'lucide-react'
@@ -40,6 +41,7 @@ export default function BulkTireRemovalForBusinesses() {
         </div>
       </section>
 
+      <VisibleBreadcrumb />
       {/* Intro Section */}
       <section className="py-12 md:py-16 bg-white">
         <div className="container mx-auto px-4">
