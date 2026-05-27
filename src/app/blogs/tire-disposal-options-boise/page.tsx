@@ -74,11 +74,11 @@ export default function TireDisposalOptionsBoise() {
             </p>
 
             <p className="text-gray-600 leading-relaxed mb-4">
-              <strong>When buying new tires.</strong> Shops charge $2-5 per tire for disposal as part of your purchase. They're required to take your old tires.
+              <strong>When buying new tires.</strong> Shops charge a small per-tire fee for disposal as part of your purchase. They're required to take your old tires.
             </p>
 
             <p className="text-gray-600 leading-relaxed mb-4">
-              <strong>Dropping off old tires.</strong> Many shops accept tires even without a purchase, though fees may be slightly higher ($3-8 per tire typically).
+              <strong>Dropping off old tires.</strong> Many shops accept tires even without a purchase, though fees may be slightly higher than the standard purchase rate.
             </p>
 
             <p className="text-gray-600 leading-relaxed mb-4">
@@ -105,7 +105,7 @@ export default function TireDisposalOptionsBoise() {
             </p>
 
             <p className="text-gray-600 leading-relaxed mb-4">
-              <strong>Ada County.</strong> Hidden Hollow Landfill and transfer stations accept tires. Fees are per tire—passenger tires around $3-5, truck tires $5-10, large equipment tires higher.
+              <strong>Ada County.</strong> Hidden Hollow Landfill and transfer stations accept tires. Fees are per tire, with passenger tires at the low end and large equipment tires the most expensive.
             </p>
 
             <p className="text-gray-600 leading-relaxed mb-4">
@@ -232,15 +232,15 @@ export default function TireDisposalOptionsBoise() {
             </p>
 
             <p className="text-gray-600 leading-relaxed mb-4">
-              <strong>Tire retailers (with purchase):</strong> $2-5 per tire
+              <strong>Tire retailers (with purchase):</strong> A small per-tire fee bundled with your purchase
             </p>
 
             <p className="text-gray-600 leading-relaxed mb-4">
-              <strong>Tire retailers (drop-off only):</strong> $3-8 per tire
+              <strong>Tire retailers (drop-off only):</strong> Slightly higher than the purchase rate
             </p>
 
             <p className="text-gray-600 leading-relaxed mb-4">
-              <strong>Transfer stations:</strong> $3-5 per tire (passenger), plus dump admission fee
+              <strong>Transfer stations:</strong> Per-tire fee plus dump admission fee
             </p>
 
             <p className="text-gray-600 leading-relaxed mb-4">

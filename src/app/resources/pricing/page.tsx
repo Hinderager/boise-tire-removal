@@ -56,30 +56,30 @@ export default function PricingPage() {
               </div>
 
               <div className="bg-gray-50 p-8 rounded-lg">
-                <h2 className="text-2xl font-bold text-dark-blue mb-4">Typical Pricing Ranges</h2>
+                <h2 className="text-2xl font-bold text-dark-blue mb-4">Tire Types We Handle</h2>
                 <div className="space-y-3 text-gray-600">
-                  <div className="flex justify-between border-b pb-2">
-                    <span><strong>1-5 Passenger Tires:</strong></span>
-                    <span>$10-15 per tire</span>
+                  <div className="border-b pb-2">
+                    <strong>Passenger Tires:</strong>
+                    <p className="text-sm mt-1">The most common and budget-friendly type. Standard sedan, SUV, and light truck tires.</p>
                   </div>
-                  <div className="flex justify-between border-b pb-2">
-                    <span><strong>Light Truck Tires:</strong></span>
-                    <span>$15-25 per tire</span>
+                  <div className="border-b pb-2">
+                    <strong>Light Truck Tires:</strong>
+                    <p className="text-sm mt-1">A step up from passenger tires—heavier and slightly more involved to process.</p>
                   </div>
-                  <div className="flex justify-between border-b pb-2">
-                    <span><strong>Large Truck/Equipment:</strong></span>
-                    <span>$25-75+ per tire</span>
+                  <div className="border-b pb-2">
+                    <strong>Large Truck/Commercial Equipment:</strong>
+                    <p className="text-sm mt-1">Semi tires and large commercial equipment tires take more handling.</p>
                   </div>
-                  <div className="flex justify-between border-b pb-2">
-                    <span><strong>Tractor/Farm Equipment:</strong></span>
-                    <span>$75-200+ per tire</span>
+                  <div className="border-b pb-2">
+                    <strong>Tractor/Farm Equipment:</strong>
+                    <p className="text-sm mt-1">Heavy, oversized tires that require specialized equipment.</p>
                   </div>
-                  <div className="flex justify-between pt-2">
-                    <span><strong>Bulk Loads (20+ tires):</strong></span>
-                    <span>Custom flat rate</span>
+                  <div className="pt-2">
+                    <strong>Bulk Loads (20+ tires):</strong>
+                    <p className="text-sm mt-1">Volume jobs are priced at a custom flat rate with better per-tire economics.</p>
                   </div>
                 </div>
-                <p className="text-sm text-gray-500 mt-4 italic">Prices are estimates and can vary based on specific circumstances. Call for an exact quote.</p>
+                <p className="text-sm text-gray-500 mt-4 italic">Every job is different. Call for an exact quote based on your tire type, quantity, and location.</p>
               </div>
 
               <div className="bg-dark-blue p-8 rounded-lg text-white">

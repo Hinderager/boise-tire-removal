@@ -74,23 +74,23 @@ export default function TireRemovalCost() {
             </p>
 
             <p className="text-gray-600 leading-relaxed mb-4">
-              <strong>Passenger car tires:</strong> $3-8 per tire. These are the cheapest and most common. Standard sedan, SUV, and light truck tires fall in this category.
+              <strong>Passenger car tires:</strong> The cheapest and most common. Standard sedan, SUV, and light truck tires fall in this category.
             </p>
 
             <p className="text-gray-600 leading-relaxed mb-4">
-              <strong>Light truck/SUV tires:</strong> $5-10 per tire. Larger and heavier than passenger tires, but still within standard processing equipment capabilities.
+              <strong>Light truck/SUV tires:</strong> Larger and heavier than passenger tires, but still within standard processing equipment capabilities.
             </p>
 
             <p className="text-gray-600 leading-relaxed mb-4">
-              <strong>Commercial truck tires:</strong> $10-25 per tire. Semi tires and large commercial vehicle tires require more handling and cost more to dispose.
+              <strong>Commercial truck tires:</strong> Semi tires and large commercial vehicle tires require more handling and cost more to dispose.
             </p>
 
             <p className="text-gray-600 leading-relaxed mb-4">
-              <strong>Farm/tractor tires:</strong> $15-50+ per tire depending on size. Large tractor tires are heavy and difficult to process.
+              <strong>Farm/tractor tires:</strong> Large tractor tires are heavy and difficult to process. Cost goes up with size.
             </p>
 
             <p className="text-gray-600 leading-relaxed">
-              <strong>Off-the-road (OTR) tires:</strong> $50-200+ per tire. Mining equipment, large loaders, and similar equipment have massive tires that require specialized handling.
+              <strong>Off-the-road (OTR) tires:</strong> Mining equipment, large loaders, and similar equipment have massive tires that require specialized handling—the most involved end of the range.
             </p>
           </div>
         </div>
@@ -111,7 +111,7 @@ export default function TireRemovalCost() {
             <div className="space-y-3 mb-6">
               <div className="flex items-start gap-3">
                 <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
-                <span className="text-blue-100"><strong>Self drop-off at tire shop:</strong> Cheapest option. $2-5 per passenger tire when buying new tires, $3-8 for drop-off only</span>
+                <span className="text-blue-100"><strong>Self drop-off at tire shop:</strong> Cheapest option. A small per-tire fee when buying new tires, slightly higher for drop-off only</span>
               </div>
               <div className="flex items-start gap-3">
                 <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
@@ -143,15 +143,15 @@ export default function TireRemovalCost() {
             </p>
 
             <p className="text-gray-600 leading-relaxed mb-4">
-              <strong>Small residential jobs (1-10 tires):</strong> $75-150 typically, which includes a service call plus per-tire fees. The minimum charge covers travel and handling time.
+              <strong>Small residential jobs (1-10 tires):</strong> Typically a service-call minimum plus per-tire fees, since the truck has to come out for travel and handling.
             </p>
 
             <p className="text-gray-600 leading-relaxed mb-4">
-              <strong>Medium jobs (10-50 tires):</strong> Per-tire pricing drops as quantity increases. Expect $5-10 per tire for standard sizes at these volumes.
+              <strong>Medium jobs (10-50 tires):</strong> Per-tire pricing drops as quantity increases.
             </p>
 
             <p className="text-gray-600 leading-relaxed mb-4">
-              <strong>Large/commercial jobs (50+ tires):</strong> Bulk pricing kicks in. Per-tire costs can drop to $3-6 for large quantities of standard tires.
+              <strong>Large/commercial jobs (50+ tires):</strong> Bulk pricing kicks in. Per-tire costs are lowest at this volume for standard tires.
             </p>
 
             <p className="text-gray-600 leading-relaxed">
@@ -213,7 +213,7 @@ export default function TireRemovalCost() {
             </p>
 
             <p className="text-gray-600 leading-relaxed mb-4">
-              <strong>Minimum charges.</strong> A quote of "$5 per tire" might not mention the $75 minimum. Ask about minimums upfront.
+              <strong>Minimum charges.</strong> A per-tire quote might not mention the minimum charge. Ask about minimums upfront.
             </p>
 
             <p className="text-gray-600 leading-relaxed mb-4">
@@ -236,7 +236,7 @@ export default function TireRemovalCost() {
             </h2>
 
             <p className="text-gray-600 leading-relaxed mb-6">
-              For a few passenger tires, dropping them off yourself at a tire shop or transfer station is cheapest—typically $3-8 per tire. For larger quantities, professional pickup makes more sense and the per-tire cost drops significantly.
+              For a few passenger tires, dropping them off yourself at a tire shop or transfer station is the cheapest route. For larger quantities, professional pickup makes more sense and the per-tire cost drops significantly.
             </p>
 
             <p className="text-gray-600 leading-relaxed mb-6">

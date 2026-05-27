@@ -56,7 +56,8 @@ export function QuickQuoteBar() {
     name: '',
     phone: '',
     email: '',
-    message: ''
+    message: '',
+    website: ''
   })
   const [consentToContact, setConsentToContact] = useState(true)
   const [phoneError, setPhoneError] = useState('')

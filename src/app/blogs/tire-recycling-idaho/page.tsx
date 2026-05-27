@@ -244,7 +244,7 @@ export default function TireRecyclingIdaho() {
             </p>
 
             <p className="text-gray-600 leading-relaxed">
-              So when you pay that $3-5 disposal fee, you're not just getting rid of a tire—you're funding a system that turns waste into roads, playgrounds, and useful products across the region.
+              So when you pay that small disposal fee, you're not just getting rid of a tire—you're funding a system that turns waste into roads, playgrounds, and useful products across the region.
             </p>
           </div>
         </div>

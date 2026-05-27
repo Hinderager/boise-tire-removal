@@ -51,7 +51,7 @@ export default function RegulationsPage() {
                   </ul>
                   <p className="mt-4"><strong>Penalties:</strong></p>
                   <ul className="list-disc list-inside space-y-2 ml-4">
-                    <li>Fines up to $5,000 per violation</li>
+                    <li>Substantial fines per violation</li>
                     <li>Cleanup costs (you pay to have them removed)</li>
                     <li>Possible criminal charges for repeat offenders</li>
                     <li>Civil liability if dumping causes environmental damage</li>

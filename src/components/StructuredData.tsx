@@ -11,7 +11,7 @@ const cityCoordinates: Record<string, { lat: number; lng: number }> = {
 const faqData = [
   {
     question: 'How much does tire removal cost per tire in Boise?',
-    answer: 'Tire removal pricing depends on quantity and location. For small jobs (1-10 tires), expect around $3-5 per tire. Bulk pickups of 50+ tires get better per-tire rates. Call (208) 943-5231 for a free, no-obligation quote.',
+    answer: 'Tire removal pricing depends on quantity, tire type (passenger, truck, tractor, OTR), whether tires are on rims, location, and accessibility. Per-tire rates drop for bulk pickups. Call (208) 943-5231 for a free, no-obligation quote.',
   },
   {
     question: 'Do you pick up tires that are still on rims?',
@@ -80,7 +80,6 @@ export function StructuredData({ city = 'Boise' }: { city?: string }) {
       "Property Tire Cleanup",
       "Commercial Tire Disposal"
     ],
-    "priceRange": "$$",
     "openingHoursSpecification": [
       {
         "@type": "OpeningHoursSpecification",

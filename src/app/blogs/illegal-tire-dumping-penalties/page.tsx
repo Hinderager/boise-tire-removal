@@ -107,7 +107,7 @@ export default function IllegalTireDumpingPenalties() {
             <div className="space-y-3 mb-6">
               <div className="flex items-start gap-3">
                 <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
-                <span className="text-blue-100"><strong>Fines up to $10,000:</strong> First-time violations can result in fines of several thousand dollars. Repeat offenders face steeper penalties</span>
+                <span className="text-blue-100"><strong>Substantial fines:</strong> First-time violations can result in significant fines. Repeat offenders face steeper penalties</span>
               </div>
               <div className="flex items-start gap-3">
                 <CheckCircle className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
@@ -205,7 +205,7 @@ export default function IllegalTireDumpingPenalties() {
             </p>
 
             <p className="text-gray-600 leading-relaxed mb-4">
-              <strong>Tire retailers.</strong> Most shops charge $2-5 per tire for disposal when you buy new tires. Some accept old tires for similar fees even without a purchase.
+              <strong>Tire retailers.</strong> Most shops charge a small per-tire fee for disposal when you buy new tires. Some accept old tires for similar fees even without a purchase.
             </p>
 
             <p className="text-gray-600 leading-relaxed mb-4">

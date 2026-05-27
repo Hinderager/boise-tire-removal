@@ -64,7 +64,7 @@ export default function RecyclingInfoPage() {
               <h2 className="text-2xl font-bold text-dark-blue mb-4">Why Proper Disposal Matters</h2>
               <div className="space-y-4 text-gray-600">
                 <p><strong>Environmental Protection:</strong> Illegally dumped tires collect water and become breeding grounds for mosquitoes. They're also fire hazards—tire fires are nearly impossible to put out and release toxic smoke.</p>
-                <p><strong>Legal Compliance:</strong> Idaho has strict rules about tire disposal. Dumping tires illegally can result in fines up to $5,000 plus cleanup costs.</p>
+                <p><strong>Legal Compliance:</strong> Idaho has strict rules about tire disposal. Dumping tires illegally can result in substantial fines plus cleanup costs.</p>
                 <p><strong>Resource Conservation:</strong> Recycling one ton of tires saves about 1.5 tons of CO2 emissions compared to making new materials from scratch.</p>
                 <p><strong>Community Health:</strong> Tire piles attract rodents and insects, pose fire risks, and are eyesores. Proper removal keeps neighborhoods safe and clean.</p>
               </div>

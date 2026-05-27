@@ -8,7 +8,7 @@ import { Button } from '@/components/ui/button'
 export const faqs = [
   {
     question: 'How much does tire removal cost per tire?',
-    answer: 'It depends on how many tires you have and where you\'re located. For small jobs (1-10 tires), you\'re looking at around $3-5 per tire. If you\'ve got 50 or more, the per-tire rate drops. Call us for a free quote—no surprises, no games.'
+    answer: 'It depends on a few things—how many tires you have, what type (passenger, truck, tractor, OTR), whether they\'re on rims, where you\'re located, and how accessible they are. Per-tire rates drop for larger jobs. Call us for a free quote—no surprises, no games.'
   },
   {
     question: 'Do you pick up tires that are still on the rims?',
