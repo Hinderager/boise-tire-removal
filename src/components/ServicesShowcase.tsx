@@ -6,28 +6,28 @@ const services = [
     title: 'Residential Tire Removal',
     description: 'Got old tires sitting in your garage, yard, or storage? We haul them away quickly and responsibly. Whether it\'s a few tires from a recent vehicle change or a pile that\'s been collecting for years, we handle it all. No judgment, just fast service.',
     image: '/generated/tire-collection.webp',
-    link: 'tel:2083611982',
+    link: 'tel:2089435231',
     buttonText: 'Call Now',
   },
   {
     title: 'Commercial Tire Pickup',
     description: 'Auto shops, dealerships, and tire retailers trust us for regular tire pickup. We provide scheduled service so you never have to worry about tire piles taking over your lot. Flexible pickup schedules that work around your business hours.',
     image: '/generated/commercial-tires.webp',
-    link: 'tel:2083611982',
+    link: 'tel:2089435231',
     buttonText: 'Call Now',
   },
   {
     title: 'Farm & Ranch Tire Hauling',
     description: 'Rural properties often accumulate tires over the years—from tractors, equipment, and vehicles. We serve farms and ranches throughout the Treasure Valley, removing tire piles of any size. We come to you, no matter how remote.',
     image: '/generated/property-cleanup.webp',
-    link: 'tel:2083611982',
+    link: 'tel:2089435231',
     buttonText: 'Call Now',
   },
   {
     title: 'Eco-Friendly Tire Recycling',
     description: 'Every tire we collect is disposed of properly. Most are recycled into rubber mulch, playground surfaces, or fuel. We never dump illegally. You get peace of mind knowing your tires won\'t end up harming the environment.',
     image: '/generated/tire-recycling.webp',
-    link: 'tel:2083611982',
+    link: 'tel:2089435231',
     buttonText: 'Call Now',
   },
 ]
@@ -96,9 +96,9 @@ export function ServicesShowcase() {
         {/* CTA Buttons */}
         <div className="flex flex-row gap-4 justify-center mt-16">
           <Button asChild size="lg" className="bg-ub-yellow hover:bg-ub-yellow/90 text-black font-bold text-lg px-10 py-6 rounded-lg uppercase border-4 border-ub-yellow">
-            <a href="tel:2083611982">
+            <a href="tel:2089435231">
               <span className="md:hidden">Call Now</span>
-              <span className="hidden md:inline">(208) 361-1982</span>
+              <span className="hidden md:inline">(208) 943-5231</span>
             </a>
           </Button>
         </div>
