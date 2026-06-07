@@ -6,7 +6,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Tire Removal Lake Lowell Nampa | Top Shelf',
+  title: 'Tire Removal Lake Lowell Nampa | Boise Tire Removal',
   description: 'Tire Removal services in Lake Lowell, Nampa, Idaho. Local team, fair prices, same-day service available. Call (208) 943-5231.',
   keywords: ['tire removal Lake Lowell', 'tire removal Lake Lowell Nampa', 'Lake Lowell nampa tire removal'],
   alternates: {

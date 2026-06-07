@@ -6,7 +6,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Tire Removal Downtown Nampa Nampa | Top Shelf',
+  title: 'Tire Removal Downtown Nampa Nampa | Boise Tire Removal',
   description: 'Tire Removal services in Downtown Nampa, Nampa, Idaho. Local team, fair prices, same-day service available. Call (208) 943-5231.',
   keywords: ['tire removal Downtown Nampa', 'tire removal Downtown Nampa Nampa', 'Downtown Nampa nampa tire removal'],
   alternates: {

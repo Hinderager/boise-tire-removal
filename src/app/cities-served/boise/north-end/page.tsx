@@ -6,7 +6,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Tire Removal North End Boise | Top Shelf',
+  title: 'Tire Removal North End Boise | Boise Tire Removal',
   description: 'Tire Removal services in North End, Boise, Idaho. Local team, fair prices, same-day service available. Call (208) 943-5231.',
   keywords: ['tire removal North End', 'tire removal North End Boise', 'North End boise tire removal'],
   alternates: {

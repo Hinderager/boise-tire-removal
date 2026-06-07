@@ -6,7 +6,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Tire Removal The Bench Boise | Top Shelf',
+  title: 'Tire Removal The Bench Boise | Boise Tire Removal',
   description: 'Tire Removal services in The Bench, Boise, Idaho. Local team, fair prices, same-day service available. Call (208) 943-5231.',
   keywords: ['tire removal The Bench', 'tire removal The Bench Boise', 'The Bench boise tire removal'],
   alternates: {

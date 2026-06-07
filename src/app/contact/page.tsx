@@ -1,6 +1,6 @@
 import { Metadata } from 'next'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
-import { Phone, Mail, MapPin, Clock } from 'lucide-react'
+import { Phone, MapPin, Clock } from 'lucide-react'
 import { SchedulingForm } from '@/components/SchedulingForm'
 
 export const metadata: Metadata = {
@@ -40,14 +40,6 @@ export default function ContactPage() {
                       <h3 className="font-bold text-dark-blue mb-1">Phone</h3>
                       <a href="tel:2089435231" className="text-lg text-gray-600 hover:text-dark-blue">(208) 943-5231</a>
                       <p className="text-sm text-gray-500">Call or text for fastest response</p>
-                    </div>
-                  </div>
-
-                  <div className="flex gap-4">
-                    <Mail className="w-6 h-6 text-[#FFC845] flex-shrink-0 mt-1" />
-                    <div>
-                      <h3 className="font-bold text-dark-blue mb-1">Email</h3>
-                      <a href="mailto:info@topshelfpros.com" className="text-lg text-gray-600 hover:text-dark-blue">info@topshelfpros.com</a>
                     </div>
                   </div>
 

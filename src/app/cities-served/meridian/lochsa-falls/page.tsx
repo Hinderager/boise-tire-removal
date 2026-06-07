@@ -6,7 +6,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Tire Removal Lochsa Falls Meridian | Top Shelf',
+  title: 'Tire Removal Lochsa Falls Meridian | Boise Tire Removal',
   description: 'Tire Removal services in Lochsa Falls, Meridian, Idaho. Local team, fair prices, same-day service available. Call (208) 943-5231.',
   keywords: ['tire removal Lochsa Falls', 'tire removal Lochsa Falls Meridian', 'Lochsa Falls meridian tire removal'],
   alternates: {

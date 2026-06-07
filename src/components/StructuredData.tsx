@@ -49,11 +49,10 @@ export function StructuredData({ city = 'Boise' }: { city?: string }) {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "name": `Top Shelf Tire Removal - ${city}`,
+    "name": "Boise Tire Removal",
     "description": `Professional tire removal, disposal, and recycling services in ${city}, Idaho. We haul away old tires from residential and commercial properties. Any quantity, proper eco-friendly disposal.`,
     "url": "https://boise-tire-removal.com",
     "telephone": "+1-208-943-5231",
-    "email": "info@topshelfpros.com",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": city,
@@ -102,7 +101,7 @@ export function StructuredData({ city = 'Boise' }: { city?: string }) {
     "serviceType": "Tire Removal and Disposal Services",
     "provider": {
       "@type": "LocalBusiness",
-      "name": "Top Shelf Tire Removal"
+      "name": "Boise Tire Removal"
     },
     "areaServed": {
       "@type": "State",
