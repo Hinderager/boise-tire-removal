@@ -17,17 +17,17 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/tire-recycling" className="text-white/80 hover:text-white transition-colors">
+                <Link href="/resources/recycling-info" className="text-white/80 hover:text-white transition-colors">
                   Tire Recycling
                 </Link>
               </li>
               <li>
-                <Link href="/bulk-pickup" className="text-white/80 hover:text-white transition-colors">
+                <Link href="/services/bulk-removal" className="text-white/80 hover:text-white transition-colors">
                   Bulk Pickup
                 </Link>
               </li>
               <li>
-                <Link href="/commercial" className="text-white/80 hover:text-white transition-colors">
+                <Link href="/services/commercial" className="text-white/80 hover:text-white transition-colors">
                   Commercial Service
                 </Link>
               </li>
